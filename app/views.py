@@ -7,3 +7,5 @@ def hasen(request):
 
 def hai(request):
     return HttpResponse('<h1 style="color:red"><marquee>hey hasen welcome to webpage</h1></marquee>')
+def macha(request):
+    return render(request,'macha.html')
